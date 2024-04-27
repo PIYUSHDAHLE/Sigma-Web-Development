@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    background-color: antiquewhite;
+}
+
+header nav ol li{
+    display: inline-block;
+    color: blueviolet;
+    list-style: none;  
+    margin: 10px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+}
+
+a:hover{
+    color: red;   
+}
+
+main h1{
+    padding: 10px;
+    text-align: center;
+}
+main p{
+    text-align: center;
+    padding: 30px;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+}
+
+.container{
+    min-height: 40vh;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+.container .box1{
+    /* margin-left: auto; */
+    /* margin-top: auto; */
+    height: 150px;
+    width: 150px;
+    background-color: rgb(136, 0, 255);
+
+}
+
+.container .box2{
+
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+
+}
+
+.container .box3{
+
+    height: 150px;
+    width: 150px;
+    background-color: seagreen;
+
+}
+
+.container .box4{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(111, 45, 127);
+
+}
